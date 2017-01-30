@@ -1,0 +1,19 @@
+.Step {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 1rem .5rem;
+  transition: all 0.2s ease;  /*will have to change with tempo*/
+  width: 100px;
+  height: 100px;
+  color: white;
+  background: #0c60b8;
+
+}
+
+.Step-active {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  background: rgb(148, 213, 97);
+}
